@@ -53,5 +53,13 @@ If given collection name is a sql query, it is still preventing as it would make
 
 /api/add required a username which is a secret key used by the team to add a new collection. No one from the outside world can access this without having the right username key
 
+## Expected Workflow:
 
+Customer logs on to the platform and accesses the Google form link to apply for Rarity tool ( https://docs.google.com/forms/u/4/d/e/1FAIpQLScwk5-Cziyxng_aSKWcbpoH9tL2fcY2Y3s1osnBDnWpQPi2pw/viewform?usp=send_form) 
+
+We manually check the metadata, verify the details with collection owners and Upload. 
+
+1) Add collection function has a secret username/password combination for the admin team.
+2) External teams cannot access the data. 
+3) We make the collection live on our platform for the end users. 
 
